@@ -1,0 +1,10 @@
+def stonecolor():
+    n=int(input())
+    count=0
+    stones=str(input())
+    for i in range(n-1):
+        if stones[i]==stones[i+1]:
+            count+=1 
+        i+=1
+    print(count)
+stonecolor()
